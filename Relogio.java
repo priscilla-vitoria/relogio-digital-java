@@ -35,7 +35,7 @@ public void setSegundos(int s) {
 	this.segundos=s;
 	}
 }
-public void satatus() {
+public void status() {
 	
 	System.out.println(this.getHoras()+ " Horas "+this.getMinutos()+ " Minutos " +this.getSegundos()+" Segundos ");
 	
