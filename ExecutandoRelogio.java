@@ -10,7 +10,7 @@ public class ExecutandoRelogio {
 		System.out.println("Sobre o Relógio inicialmente:");
 		relogioPulso.status();
 		System.out.println("___________________________________");
-		System.out.println("Informe as Horas:");
+		System.out.println("Informe ás Horas:");
 		int h = sc.nextInt();
 		while (h < 0 || h > 23) {
 			System.out.println("Não é possível este horário. Escolha novamento entre 0 e 23.");
@@ -42,7 +42,7 @@ public class ExecutandoRelogio {
 		System.out.println("Sobre o Relógio inicialmente:");
 		relogioParede.status();
 		System.out.println("___________________________________");
-		System.out.println("Informe as Horas:");
+		System.out.println("Informe ás Horas:");
 		int h2 = sc.nextInt();
 		while (h2 < 0 || h2 > 23) {
 			System.out.println("Não é possível este horário. Escolha novamento entre 0 e 23.");
@@ -59,7 +59,7 @@ public class ExecutandoRelogio {
 		System.out.println("Informe os segundos:");
 		int s2 = sc.nextInt();
 		while (s2 < 0 || s2 > 59) {
-			System.out.println("Não é possínel estes segundos. Escolha entre 0 e 59");
+			System.out.println("Não é possível estes segundos. Escolha entre 0 e 59");
 			s2 = sc.nextInt();
 		}
 		relogioParede.setSegundos(s2);
